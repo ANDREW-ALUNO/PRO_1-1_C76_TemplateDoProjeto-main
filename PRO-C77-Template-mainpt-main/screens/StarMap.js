@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class DailyPicScreen extends Component {
+export default class StarMapScreen extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class DailyPicScreen extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>DailyPic Screen!</Text>
+                <Text>Tela do Mapa Estelar!</Text>
             </View>
         )
     }

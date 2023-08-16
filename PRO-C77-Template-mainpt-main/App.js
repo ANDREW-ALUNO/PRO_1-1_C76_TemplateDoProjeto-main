@@ -16,10 +16,7 @@ function App() {
       <Stack.Navigator initialRouteName="Home" screenOptions={{
         headerShown: false
       }}>
-    
-        <Stack.Screen component="Home" name={HomeScreen} /> 
-
-    
+        <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="StarMap" component={StartMapScreen} />
         <Stack.Screen name="DailyPic" component={DailyPicScreen} />
         <Stack.Screen name="SpaceCraft" component={SpaceCraftScreen} />
